@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    font-family: 'nunito';
+}
+
+.four_chars{
+  /* font-family: monospace; */
+  width: 4ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.three_chars{
+  /* font-family: monospace; */
+  width: 4ch;
+  height: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+}
